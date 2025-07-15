@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dalmia Trips - June 2025</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+    header {
+      background-color: #003366;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    section {
+      padding: 20px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 10px;
+    }
+    th, td {
+      padding: 10px;
+      border: 1px solid #ccc;
+      text-align: left;
+    }
+    th {
+      background-color: #003366;
+      color: white;
+    }
+    h2 {
+      color: #003366;
+    }
+    .conclusion {
+      background-color: #e0f7fa;
+      border-left: 5px solid #00796b;
+      padding: 10px;
+      margin-bottom: 30px;
+    }
+    .footer {
+      background-color: #003366;
+      color: white;
+      padding: 10px;
+      text-align: center;
+    }
+    .note {
+      background-color: #e9f5ff;
+      padding: 10px;
+      border-left: 5px solid #3399ff;
+      margin-bottom: 20px;
+    }
+    @media screen and (max-width: 600px) {
+      table, thead, tbody, th, td, tr {
+        display: block;
+        width: 100%;
+      }
+      th {
+        background-color: #0055a5;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Dalmia Trips – June 2025</h1>
+</header>
+
+<section>
+  <div class="note">
+    <strong>To view dynamically:</strong> <br>
+    Download Power BI Desktop: 
+    <a href="https://www.microsoft.com/en-us/download/details.aspx?id=58494" target="_blank">https://www.microsoft.com/en-us/download/details.aspx?id=58494</a>
+  </div>
+
+  <h2>1. Overall Summary</h2>
+  <table>
+    <tr><th>Metric</th><th>Value</th><th>Note</th></tr>
+    <tr><td>Total Trips</td><td>834</td><td>100%</td></tr>
+    <tr><td>Avg Trips / Day</td><td>28</td><td>Avg per Active Day</td></tr>
+    <tr><td>Max Trips</td><td>72</td><td>Peak Day</td></tr>
+    <tr><td>Min Trips</td><td>3</td><td>Lowest Day</td></tr>
+  </table>
+  <div class="conclusion">Trip activity is consistent with a strong volume. Peaks and dips reflect operational cycles, potentially dispatch planning or plant-level demand changes.</div>
+
+  <h2>2. Seals Report</h2>
+  <table>
+    <tr><th>Seals Report</th><th>Count</th><th>% of Total</th></tr>
+    <tr><td>MATCHED = 20, MISMATCH = 0</td><td>432</td><td>51.80%</td></tr>
+    <tr><td>MATCHED = 40, MISMATCH = 0</td><td>390</td><td>46.75%</td></tr>
+    <tr><td>MATCHED = 0, MISMATCH = 20</td><td>9</td><td>1.08%</td></tr>
+    <tr><td>MATCHED = 39, MISMATCH = 1</td><td>3</td><td>0.36%</td></tr>
+    <tr><td><strong>Total</strong></td><td><strong>834</strong></td><td><strong>100%</strong></td></tr>
+  </table>
+  <div class="conclusion">98.55% of trips have perfectly matched seals — operational safety and compliance are very strong. Mismatch issues are within acceptable limits.</div>
+
+  <h2>3. Top Transporters</h2>
+  <table>
+    <tr><th>Transporter Name</th><th>Count</th><th>% of Total</th></tr>
+    <tr><td>R. Vijayram</td><td>325</td><td>38.96%</td></tr>
+    <tr><td>Srbt Logistics</td><td>112</td><td>13.43%</td></tr>
+    <tr><td>Sri Navasakthi Vinayagar Transports</td><td>85</td><td>10.19%</td></tr>
+    <tr><td>Neha Roadlines</td><td>70</td><td>8.39%</td></tr>
+    <tr><td>Rks Transporter</td><td>53</td><td>6.36%</td></tr>
+    <tr><td>Others</td><td>189</td><td>22.67%</td></tr>
+    <tr><td><strong>Total</strong></td><td><strong>834</strong></td><td><strong>100%</strong></td></tr>
+  </table>
+  <div class="conclusion">R. Vijayram is the leading transporter, handling nearly 39% of all trips. The top 5 transporters handle over 77% of the load, showing efficient consolidation.</div>
+
+  <h2>4. FTX Remarks</h2>
+  <table>
+    <tr><th>Remark</th><th>Count</th><th>% of Total</th></tr>
+    <tr><td>No Issue</td><td>785</td><td>94.13%</td></tr>
+    <tr><td>Long Halt</td><td>20</td><td>2.40%</td></tr>
+    <tr><td>Vehicle Delay</td><td>10</td><td>1.20%</td></tr>
+    <tr><td>Breakdown</td><td>8</td><td>0.96%</td></tr>
+    <tr><td>Risky Point</td><td>7</td><td>0.84%</td></tr>
+    <tr><td>Tracking Issue</td><td>4</td><td>0.48%</td></tr>
+    <tr><td><strong>Total</strong></td><td><strong>834</strong></td><td><strong>100%</strong></td></tr>
+  </table>
+  <div class="conclusion">Most trips (94%) show no issue. Minor delays and halts exist but are manageable with close monitoring.</div>
+
+  <h2>5. Material Type</h2>
+  <table>
+    <tr><th>Material Type</th><th>Count</th><th>%</th></tr>
+    <tr><td>Coal</td><td>822</td><td>98.56%</td></tr>
+    <tr><td>Pet Coke</td><td>12</td><td>1.44%</td></tr>
+    <tr><td><strong>Total</strong></td><td><strong>834</strong></td><td><strong>100%</strong></td></tr>
+  </table>
+  <div class="conclusion">Coal dominates the shipment profile at 98.5%. Operations are optimized for coal logistics.</div>
+
+  <h2>6. Final Summary</h2>
+  <table>
+    <tr><th>Category</th><th>Key Insight</th></tr>
+    <tr><td>Trip Performance</td><td>78.5% Early, 1.3% On Time, 20.1% Delayed</td></tr>
+    <tr><td>Transporters</td><td>R. Vijayram handles 39% of all trips</td></tr>
+    <tr><td>Material</td><td>98.5% Coal</td></tr>
+    <tr><td>Seal Status</td><td>>99% matched or fully verified</td></tr>
+    <tr><td>Route Focus</td><td>4 major lanes account for ~95% of movement</td></tr>
+    <tr><td>FTX Remarks</td><td>94% trips have “No Issue”</td></tr>
+    <tr><td>Day-wise Trend</td><td>Mid-month and month-end peaks</td></tr>
+  </table>
+</section>
+
+<div class="footer">
+  <p><strong>Gautam Kumar</strong> | Analyst<br>
+     Contact: +91 9154306994 | Email: gautam@fleetronix.io<br>
+     <a style="color: white;" href="https://www.fleetronix.io" target="_blank">www.fleetronix.io</a></p>
+</div>
+
+</body>
+</html>
